@@ -17,3 +17,19 @@ circle {
     from { fill: yellow; }
     to { fill: red; }
 }
+
+.circleA {
+    width: 125px;
+    height: 125px;
+    animation-name: exampleA;
+    animation-duration: 10s;
+}
+
+@keyframes exampleA {
+    0% { stroke: red; }
+    25% { stroke: yellow; }
+    50% { stroke:yellowgreen; }
+    100% { stroke: aquamarine; }
+
+}
+

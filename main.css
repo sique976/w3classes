@@ -1,0 +1,19 @@
+h2, p {
+    text-align: center;
+}
+svg {
+    position: relative;
+    left: 45%;
+}
+circle {
+    width: 125px;
+    height: 125px;
+    animation-name: example;
+    animation-duration: 5s;
+    
+}
+
+@keyframes example {
+    from { fill: yellow; }
+    to { fill: red; }
+}
